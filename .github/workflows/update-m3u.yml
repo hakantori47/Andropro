@@ -27,7 +27,7 @@ jobs:
         pip install requests urllib3
         
     - name: Run M3U Generator
-      run: python "androproxyli.py."
+      run: python "androproxyli.py"
       
     - name: Commit and push
       run: |
